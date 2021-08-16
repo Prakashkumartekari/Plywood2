@@ -1,0 +1,41 @@
+.allproduct__container{
+          display: flex;
+          justify-content: center;
+          padding: 3rem;
+          h3{
+                    font-size: 2rem;
+                    text-transform: capitalize;
+                    margin: 1rem 0;
+          }
+          p{
+                    line-height: 1.5rem;
+                    text-align: justify;
+                    margin-right: 2rem;
+          }
+          h4{
+                    margin-top: 1rem;
+                    font-size: 1.2rem;
+          }
+}
+@media screen and (max-width:768px) {
+          .allproduct__container{
+                    padding: 1rem;
+          flex-direction: column;
+          h3{
+                    text-align: center;
+          }
+          p{
+                    margin-right: 0;
+          }
+          }
+          .allproduct_rightside{
+                    height: 100%;
+                    width: 100%;
+                  margin-top: 1rem;
+                    img{
+                              height: auto;
+                              width: 100%;
+                              object-fit: contain;
+                    }
+          }
+}

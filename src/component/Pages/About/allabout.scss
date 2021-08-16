@@ -1,0 +1,68 @@
+.allabout_container{
+          display: flex;
+          padding: 2rem;
+          .leftSide{
+                    h2{
+                              margin: 1rem 0;
+                              font-weight: bold;
+                              font-size: 2rem;
+                    }
+                    p{
+                              line-height: 1.7rem;
+                              text-align: justify;
+                              margin-right: 2rem;
+                              // font-weight: 600;
+                             
+                    }
+
+          }
+          .rightSide{
+                    display: flex;
+                    flex-direction: column;
+                   justify-content: center;
+                   
+                    img{
+
+                              width:500px;
+                              height: auto;
+                              object-fit: contain;
+                    }
+                    p{
+                              background-color:#f5f5f5;
+                              padding: .5rem 1rem;
+                              margin-top: -10px;
+                              span{
+                                        font-weight: 700;
+                                        margin-right: .5rem;
+
+                              }
+                    }
+
+          }
+}
+@media screen and (max-width:768px) {
+          .allabout_container{
+                    flex-direction: column;
+                    padding: 2rem 1rem;
+                    .leftSide{
+                              h2{
+                                        text-align: center;
+                                        margin: 0 0 1rem 0;
+                              }
+                              P{
+                                        margin-right: 0;
+                              }
+                    }
+                    .rightSide{
+                             margin-top: 1rem;
+                              height: 100%;
+                              width: 100%;
+                              img{
+                                        
+                                        height: 100%;
+                              width: 100%;;
+                                        object-fit: contain;
+                              }
+                    }
+          }
+}

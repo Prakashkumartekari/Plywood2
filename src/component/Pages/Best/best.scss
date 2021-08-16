@@ -1,0 +1,40 @@
+// #EDEDED
+
+.best__container{
+          background-color: #ededed;
+          padding: 1rem;
+          h2{
+                    text-align: center;
+                    font-size: 2rem;
+                    color: rgb(27, 26, 26);
+                    margin-bottom: 1rem;
+
+          }
+          .best__card_container{
+                    display: flex;
+                    justify-content:center;
+                
+                    .best__card{
+                              margin: 0 1rem;
+                              display: flex;
+                              flex-direction: column;
+                              justify-content: center;
+                              align-items: center;
+                              img{
+                                        height:auto;
+                                        width: 250px;
+                                        object-fit: contain;
+                              }
+                              p{
+                                        font-size: 1.7rem;
+                                        margin: 1rem auto;
+                              }
+                    }
+          }
+}
+@media screen and (max-width:768px) {
+          .best__card_container{
+                    flex-direction: column;
+                    align-items: center;
+          }
+}

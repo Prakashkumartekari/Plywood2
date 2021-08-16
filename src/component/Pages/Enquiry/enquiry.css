@@ -1,0 +1,115 @@
+.enquiry__container {
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.enquiry__container .enquiry_leftside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 0 1rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.enquiry__container .enquiry_leftside h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.enquiry__container .enquiry_leftside label.Mui-focused {
+  color: orange;
+}
+
+.enquiry__container .enquiry_leftside label.Mui-focused {
+  border-color: orange !important;
+}
+
+.enquiry__container .enquiry_leftside .Mui-focused fieldset {
+  border-color: orange !important;
+}
+
+.enquiry__container .enquiry_leftside .MuiButton-contained {
+  background-color: orange;
+  color: #fff;
+}
+
+.enquiry__container .enquiry_rightside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.enquiry__container .enquiry_button {
+  margin-top: 1rem;
+}
+
+.popup__container {
+  z-index: 2;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup__container .popup {
+  z-index: 3;
+  background-color: green;
+  color: #fff;
+  padding: 2rem 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .enquiry__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 1rem;
+  }
+  .enquiry__container .enquiry_leftside {
+    padding: 0;
+    -webkit-box-flex: 1;
+        -ms-flex: auto;
+            flex: auto;
+    height: 100%;
+    width: 100%;
+  }
+  .enquiry__container .enquiry_leftside h2 {
+    text-align: center;
+  }
+  .enquiry__container .enquiry_rightside {
+    height: 100%;
+    width: 100%;
+    margin: 1rem 0;
+  }
+  .enquiry__container .enquiry_rightside img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+/*# sourceMappingURL=enquiry.css.map */

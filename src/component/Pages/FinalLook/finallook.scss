@@ -1,0 +1,32 @@
+.finallook__container{
+          background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../../../assets/slider4.jpg") no-repeat ;
+          background-size: cover;
+          background-position: center center;
+          background-attachment: fixed;
+       
+          h2{
+                    color: #fff;
+                    text-align: center;
+                    font-size: 2.5rem;
+                    letter-spacing: 1px;
+
+          }
+          .finallookcard_container{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .finallookcard{
+                              margin:2rem;
+                    }
+          }
+
+}
+@media screen and (max-width:768px) {
+          .finallookcard_container{
+                    flex-direction: column;
+                    .finallookcard{
+                              margin: 0;
+                    }
+          }
+          
+}

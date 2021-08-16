@@ -1,0 +1,62 @@
+.best__container {
+  background-color: #ededed;
+  padding: 1rem;
+}
+
+.best__container h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #1b1a1a;
+  margin-bottom: 1rem;
+}
+
+.best__container .best__card_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.best__container .best__card_container .best__card {
+  margin: 0 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.best__container .best__card_container .best__card img {
+  height: auto;
+  width: 250px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.best__container .best__card_container .best__card p {
+  font-size: 1.7rem;
+  margin: 1rem auto;
+}
+
+@media screen and (max-width: 768px) {
+  .best__card_container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+/*# sourceMappingURL=best.css.map */
