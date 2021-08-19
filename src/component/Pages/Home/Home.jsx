@@ -15,7 +15,7 @@ const Home = () => {
                     <div>
                               {/* carousel_section */}
                             <div className="imgBox">
-                                      <img src={back} alt="back" srcset="" />
+                                      <img src={back} alt="back"  />
                             </div>
 
                             {/* about section */}
@@ -27,14 +27,14 @@ const Home = () => {
                                         <p>ABCD Plywood Pvt Ltd which is one of the renowned company engaged in the Plywood business. We deal in optimum grade of plywood range which makes us the prime Manufacturer and Exporter from India.We have a wide spectrum of ABCD company Flush Door, ABCD  Ply & ABCD Board. We are one of India’s renowned Manufacturers and Exporter dealing in the optimum grade of Plywood. We are a socially responsible company offering eco friendly Plywood.</p>
                                         <Link to="/company-profile" className="abouthome__link">Read More</Link>
                                         <div className="abouthome__left_bottompic">
-                                                 <img src={about2} alt="about1" srcset="" />
-                                                 <img src={about3} alt="about3" srcset="" />
+                                                 <img src={about2} alt="about1" />
+                                                 <img src={about3} alt="about3" />
                                         </div>
                                         </div>
 
                                       </div>
                                       <div className="abouthome__right">
-                                        <img src={about1} alt="about1" srcset="" />
+                                        <img src={about1} alt="about1" />
                                       </div>
                             </div>
                             {/* Parallex Section */}

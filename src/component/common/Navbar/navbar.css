@@ -1,13 +1,3 @@
-.Navbar {
-  background-color: transparent;
-  background-color: rgba(0, 0, 0, 0.5) !important;
-  padding: 1rem;
-  -webkit-transition-property: all;
-  transition-property: all;
-  -webkit-transition-delay: 0.5s;
-          transition-delay: 0.5s;
-}
-
 .Navbar .Navbar__brand {
   -webkit-transition-property: all;
   transition-property: all;
@@ -23,30 +13,6 @@
   transition-property: all;
   -webkit-transition-delay: 0.5s;
           transition-delay: 0.5s;
-  height: 80px;
-}
-
-.NavbarScroll {
-  background-color: #fff !important;
-  padding: .5rem;
-  -webkit-transition-property: all;
-  transition-property: all;
-  -webkit-transition-delay: 0.5s;
-          transition-delay: 0.5s;
-}
-
-.NavbarScroll .Navbar__brand {
-  -webkit-transition-property: all;
-  transition-property: all;
-  -webkit-transition-delay: 0.5s;
-          transition-delay: 0.5s;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-}
-
-.NavbarScroll .Navbar__brand img {
-  height: 40px;
 }
 
 .Navbar__link {
@@ -73,8 +39,9 @@
 
 .Navbar__link ul li:hover ul {
   display: block;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .Navbar__link ul li ul {
@@ -84,12 +51,8 @@
           flex-direction: column;
   background-color: #fff;
   position: absolute;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
+  height: 0;
   display: none;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
 }
 
 .Navbar__link ul li ul li {

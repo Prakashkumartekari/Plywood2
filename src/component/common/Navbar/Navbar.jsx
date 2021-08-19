@@ -1,7 +1,7 @@
 import { AppBar, Collapse, Divider, Drawer, Hidden, IconButton, List, ListItem, ListItemText, Paper, Toolbar } from "@material-ui/core";
 import React, { useEffect, useState } from "react";
 import MenuOutlinedIcon from '@material-ui/icons/MenuOutlined';
-import { NavLink,} from "react-router-dom";
+import { NavLink, Redirect,} from "react-router-dom";
 import logo from "../../../assets/logo2.png";     
 import "./navbar.css";
 import { ExpandLess, ExpandMore } from "@material-ui/icons";
@@ -24,13 +24,21 @@ const Navbar = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+  const style1= {
+    height:"50px",
+    transition:"height 0.5s"
+  }
+  const style2 = {
+    height:"60px",
+    transition:"height 0.5s",
+    
+  }
   return (
     <div>
-      
-      <AppBar className={scrollNav ? "NavbarScroll" : "Navbar"}>
+      <AppBar className="Navbar" style={scrollNav?{padding:".5rem",transition:"all 0.5s",backgroundColor:"#fff"}:{padding:"1rem",transition:"all 0.5s",backgroundColor:"rgba(0,0,0,0.5)"}}>
         <Toolbar>
           <div className="Navbar__brand">
-            <img src={logo} alt="logo" />
+            <img src={logo} alt="logo" style={scrollNav?style1:style2}/>
           </div>
           <Hidden smDown>
             <div className="Navbar__link">
@@ -51,7 +59,7 @@ const Navbar = () => {
                   onClick={()=>handleclose()}
                     className={scrollNav ? "navLink_scroll" : "navLink"}
                     exact
-                    to="/about"
+                    to="/company-profile"
                     activeClassName="navActive"
                   >
                     About
@@ -81,17 +89,17 @@ const Navbar = () => {
                     </li>
                   </ul>
                 </li>
-                <li>
+                <li style={{transition:"all 0.5s"}}>
                   <NavLink
                   onClick={()=>handleclose()}
                     className={scrollNav ? "navLink_scroll" : "navLink"}
                     exact
-                    to="/product"
+                    to={Redirect("/")}
                     activeClassName="navActive"
                   >
                     Products
                   </NavLink>
-                  <ul>
+                  <ul style={{transition:"all 0.5s"}}>
                     <li>
                       <NavLink
                       onClick={()=>handleclose()}

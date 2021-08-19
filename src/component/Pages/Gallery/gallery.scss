@@ -1,0 +1,28 @@
+.gallery__container{
+          padding: 1rem;
+         
+          h2{
+                    font-size: 3rem;
+                    text-align: center;
+                    letter-spacing: 1px;
+                    text-transform: capitalize;
+                    margin-bottom: 1rem;
+          }
+          .galleryWrap{
+                    display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: wrap;
+
+                    .galleryCard{
+                              margin: .5rem;
+                              height: 100%;
+                              width: 300px;
+                              img{
+                                        height: 100%;
+                                        width: 100%;
+                                        object-fit: cover;
+                              }
+                    }
+          }
+}

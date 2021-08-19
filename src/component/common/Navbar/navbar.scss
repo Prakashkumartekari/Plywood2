@@ -1,10 +1,5 @@
 .Navbar{
-          background-color: transparent;
-          background-color: rgba(0,0,0,0.5) !important;
-          padding: 1rem;
-         transition-property: all;
-         transition-delay: 0.5s;
-    
+        
           .Navbar__brand{ 
                     transition-property: all;
                     transition-delay: 0.5s;
@@ -12,26 +7,26 @@
                  img{
                     transition-property: all;
                     transition-delay: 0.5s;
-                           height: 80px;
+                          
                  }
                  
           }
 }
-.NavbarScroll{
-          background-color: #fff !important;
-          padding: .5rem;
-          transition-property: all;
-          transition-delay: 0.5s;
-          .Navbar__brand{ 
-                    transition-property:all;
-                    transition-delay: 0.5s;
-                   flex-grow: 1;
-                 img{
-                           height: 40px;
-                 }
+// .NavbarScroll{
+//           background-color: #fff !important;
+//           padding: .5rem;
+//           transition-property: all;
+//           transition-delay: 0.5s;
+//           .Navbar__brand{ 
+//                     transition-property:all;
+//                     transition-delay: 0.5s;
+//                    flex-grow: 1;
+//                  img{
+//                            height: 40px;
+//                  }
                  
-          }
-}
+//           }
+// }
 .Navbar__link{
           display: flex;
           justify-content: center;
@@ -44,16 +39,17 @@
                  li{
                         &:hover ul {
                                display: block;
-                               transition:all 0.5s;
+                               height: fit-content;
+                             
                                
                         }
                         ul{
                               flex-direction: column;
                               background-color: #fff;
                               position: absolute;
-                              height:fit-content;
+                              height:0;
                               display: none;
-                              transition:all 0.5s;
+                           
                               li                            
                             {
                                      padding: .5rem 2rem;

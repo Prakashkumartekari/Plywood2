@@ -257,21 +257,21 @@ export const  shutteringPlyfeatureData=[
 
 export const productdata={
           commercial:{
-                    text:"Cobra Commercial Ply is a commercial plywood from the house of Asian Plywood Industries. Additionally, Commercial ply is dimensionally stable with lesser susceptibility to weather variance. This ply is bend resistant as more number of plies are used which provides more strength. Cobra Commercial Ply is chemically treated for borer and termite resistance. It is highly resistant to climatic conditions. Cobra Commercial Ply has bonding with melamine fortified Urea Fomaldehyde Synthatic Adhesive which makes it best in the class.",
-                    typestext:"Cobra Commercial Ply is available in different thikness, ie. 6 mm, 8 mm, 12 mm, 15 mm, 16 mm, 18 mm",
+                    text:"ABCD Commercial Ply is a commercial plywood from the house of ABCD Plywood Industries. Additionally, Commercial ply is dimensionally stable with lesser susceptibility to weather variance. This ply is bend resistant as more number of plies are used which provides more strength. ABCD Commercial Ply is chemically treated for borer and termite resistance. It is highly resistant to climatic conditions. ABCD Commercial Ply has bonding with melamine fortified Urea Fomaldehyde Synthatic Adhesive which makes it best in the class.",
+                    typestext:"ABCD Commercial Ply is available in different thikness, ie. 6 mm, 8 mm, 12 mm, 15 mm, 16 mm, 18 mm",
                     img:product1
           },
           mrgrade:{
-                    text:`MR Grade Ply is a result of our brilliant Research & Development team that works tirelessly to raise the bar and maintain the competitive edge. Right from selecting the perfect veneer to formulating formaldehyde synthetic resin, Cobra MR Grade is manufactured with utmost care. Besides being marine plywood, MR Grade is weather proof and insect resistant. It is our premium brand and we can proudly say that it is the best that can be offered to our customers.
+                    text:`MR Grade Ply is a result of our brilliant Research & Development team that works tirelessly to raise the bar and maintain the competitive edge. Right from selecting the perfect veneer to formulating formaldehyde synthetic resin, ABCD MR Grade is manufactured with utmost care. Besides being marine plywood, MR Grade is weather proof and insect resistant. It is our premium brand and we can proudly say that it is the best that can be offered to our customers.
                     This highly durable plywood is a well-favoured product due to its multitude of attributes which includes unmatched screw holding capacity, nail holding strength, uniform thickness and much more. Apart from freedom from warping, it is also resistant to termites and borers.`,
                     typestext:"MR Grade Ply is available in different thikness, ie. 6 mm, 8 mm, 12 mm, 15 mm, 16 mm, 18 mm",
                     img:product2
           },
           waterproof:{
-                    text:`Cobra waterproof Ply & Doors from the house of Cobra Ply is the ultimate choice in Marine plywood. It is chemically treated with permanent preservatives through vacuum pressure impregnation and adheres to IS 710-1976.
+                    text:`ABCD waterproof Ply & Doors from the house of ABCD Ply is the ultimate choice in Marine plywood. It is chemically treated with permanent preservatives through vacuum pressure impregnation and adheres to IS 710-1976.
                     It is chemically treated with permanent preservatives through vacuum pressure impregnation and adheres to IS 710-1976. It is totally resistant to fungi, termites, marine borers and other wood destroying organisms.
                     
-                    Cobra waterproof Ply & Doors is extensively used in the ship building industry, for constructing barges, lifeboats, ship cabins, sauna bath compartments and other light marine crafts. Also as woodwork in kitchens, bathrooms, panel inserts, exposed cabins, partitions and much more.`,
+                    ABCD waterproof Ply & Doors is extensively used in the ship building industry, for constructing barges, lifeboats, ship cabins, sauna bath compartments and other light marine crafts. Also as woodwork in kitchens, bathrooms, panel inserts, exposed cabins, partitions and much more.`,
                     typestext:" Waterproof Ply is available in different thikness, ie. 6 mm, 8 mm, 12 mm, 15 mm, 16 mm, 18 mm",
                     img:product1
           },
@@ -281,27 +281,67 @@ export const productdata={
                     img: product3
           },
           blockboard:{
-                    text:"Cobra Ply specialises in making of best quality of Block Board suited for each need. Cobra Ply Bock Board is produced using the best timber and experiences a stringent 5-step additive treatment, making it termite and borer safe. The Block Board has high dimensional strength and is without twist. The Block Boards are eco-accommodating and emanation free. Non-poisonous natural synthetic substances are utilized for Glue Line. Cobra Block boards are made with finest quality of softwood as the center layer. The strips are put edge to edge and sandwiched between veneers hardwood, pasted under high pressure and heat with glue. Cobra Block boards are used in the construction of railway carriages, bus bodies and river crafts and for furniture making, partitions, paneling, prefabricated houses, etc.",
-                    typestext:"Cobra Ply Block Board is available in both BWP and MR grade.",
+                    text:"ABCD Ply specialises in making of best quality of Block Board suited for each need. ABCD Ply Bock Board is produced using the best timber and experiences a stringent 5-step additive treatment, making it termite and borer safe. The Block Board has high dimensional strength and is without twist. The Block Boards are eco-accommodating and emanation free. Non-poisonous natural synthetic substances are utilized for Glue Line. ABCD Block boards are made with finest quality of softwood as the center layer. The strips are put edge to edge and sandwiched between veneers hardwood, pasted under high pressure and heat with glue. ABCD Block boards are used in the construction of railway carriages, bus bodies and river crafts and for furniture making, partitions, paneling, prefabricated houses, etc.",
+                    typestext:"ABCD Ply Block Board is available in both BWP and MR grade.",
                     img:product4,
           }, 
           flushdoor:{
-                    text:"Cobra Flush Door is a premium product made from high class selected veneer. Well seasoned wood and is bonded with phenol formaldehyde resin confirming to IS 2202-1991 Cobra Flush Door can be easily painted or polished as it has a smooth and flawless surface finished to improve natural durability of the everlasting. Chemical treatment is being given and is pressed under high pressure & temperature to make the door resistant to termites, wood borers and cyclic changes. Cobra Flush Door are dimensionally stable, durable, totally resistant to termites and borers and are 100% boiling water proof. Theses doors are completely made from perfectly seasoned and chemically treated prime quality Hardwood timber.",
-                    typestext:"Cobra Flush doors are available in Standard Thickness of 30 mm to 32mm but on special order we can provide in 25 mm, 35 mm, 38mm thickness.",
+                    text:"ABCD Flush Door is a premium product made from high class selected veneer. Well seasoned wood and is bonded with phenol formaldehyde resin confirming to IS 2202-1991 ABCD Flush Door can be easily painted or polished as it has a smooth and flawless surface finished to improve natural durability of the everlasting. Chemical treatment is being given and is pressed under high pressure & temperature to make the door resistant to termites, wood borers and cyclic changes. ABCD Flush Door are dimensionally stable, durable, totally resistant to termites and borers and are 100% boiling water proof. Theses doors are completely made from perfectly seasoned and chemically treated prime quality Hardwood timber.",
+                    typestext:"ABCD Flush doors are available in Standard Thickness of 30 mm to 32mm but on special order we can provide in 25 mm, 35 mm, 38mm thickness.",
                     img:product5,
           }, 
           laminnate:{
-                    text:`Cobra laminated doors are elegant and ready to use. These doors are manufactured with hard wood timber and treated against the termite and borer. Excellent textures and designs are available for laminated door to matchup with your interior.
+                    text:`ABCD laminated doors are elegant and ready to use. These doors are manufactured with hard wood timber and treated against the termite and borer. Excellent textures and designs are available for laminated door to matchup with your interior.
                     The Laminated doors replicate beautiful wood effect finishes in traditional designs, including plane and glossy effect. The doors in this range are water-proof and covered with High Pressure Laminate (HPL) sheets which give them their distinctively beautiful finish. Carved from the best raw materials available and cut by latest cutting-edge machines, these all-weather doors are capable of withstanding the harshest of climatic conditions, without even a scratch to their exquisiteness.`,
-                    typestext:"Cobra Laminated doors are available in Standard Thickness of 30 mm to 32mm but on special order we can provide in 25 mm, 35 mm, 38mm thickness.",
+                    typestext:"ABCD Laminated doors are available in Standard Thickness of 30 mm to 32mm but on special order we can provide in 25 mm, 35 mm, 38mm thickness.",
                     img:product6,
           }, 
          teakdoor:{
-                    text:"The doors in this range are water-proof and covered with best quality of teak sheets which give them their distinctively beautiful finish. Carved from the best raw materials available and cut by latest cutting edge machines, these all-weather doors are capable of withstanding the harshest of climatic conditions, without even a scratch to their exquisiteness. Choose from an exotic range of Cobra Teak Doors, which uses a unique technology in which special resins impart extra strength to its laminates, making them highly resistant.",
-                    typestext:"Cobra Teak doors are available in Standard Thickness of 30 mm to 32mm but on special order we can provide in 25 mm, 35 mm, 38mm thickness. It is also available in single side & Both Side Teak.",
+                    text:"The doors in this range are water-proof and covered with best quality of teak sheets which give them their distinctively beautiful finish. Carved from the best raw materials available and cut by latest cutting edge machines, these all-weather doors are capable of withstanding the harshest of climatic conditions, without even a scratch to their exquisiteness. Choose from an exotic range of ABCD Teak Doors, which uses a unique technology in which special resins impart extra strength to its laminates, making them highly resistant.",
+                    typestext:"ABCD Teak doors are available in Standard Thickness of 30 mm to 32mm but on special order we can provide in 25 mm, 35 mm, 38mm thickness. It is also available in single side & Both Side Teak.",
                     img:product7,
           },
 
 
 }
+export const galleryData = [
+          {
+                    img:comfinal1,
+                    name:"gallery1"
+          }, {
+                    img:comfinal2,
+                    name:"gallery2"
+          }, {
+                    img:comfinal3,
+                    name:"gallery3"
+          }, {
+                    img:shuttering1,
+                    name:"gallery4"
+          }, {
+                    img:shuttering2,
+                    name:"gallery5"
+          }, {
+                    img:shuttering3,
+                    name:"gallery6"
+          }, {
+                    img:laminationdoor1,
+                    name:"gallery7"
+          }, {
+                    img:laminationdoor2,
+                    name:"gallery8"
+          }, {
+                    img:laminationdoor3,
+                    name:"gallery9"
+          }, {
+                    img:teakdoor1,
+                    name:"gallery10"
+          }, {
+                    img:teakdoor2,
+                    name:"gallery11"
+          }, {
+                    img:teakdoor3,
+                    name:"gallery12"
+                    
+          }, 
+]
 

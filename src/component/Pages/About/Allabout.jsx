@@ -16,7 +16,7 @@ const Allabout = ({Heading,bottomRoute,Name,post,title,text,img}) => {
                                         {text}
                                         </div>
                                         <div className="rightSide">
-                                                  <img src={img} alt="" />
+                                                  <img src={img} alt={Name} />
                                                   <p><span>{Name},</span>{post}</p>
 
                                         </div>

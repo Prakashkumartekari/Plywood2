@@ -7,8 +7,8 @@ const Features = ({data}) => {
                                         <h2>Features</h2>
                                         <div className="cardWrap">
                                         {data.map(item=>(
-                                        <div className="feature_card">
-                                                  <img src={item.img} alt="" />
+                                        <div className="feature_card" key={item.name}>
+                                                  <img src={item.img} alt={item.name} />
                                                   <p>{item.name}</p>
                                         </div>
                                         ))}

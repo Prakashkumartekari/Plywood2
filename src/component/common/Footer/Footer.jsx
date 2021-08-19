@@ -9,7 +9,7 @@ const Footer = () => {
     <div>
       <div className="footer__container">
         <div className="first__sec">
-          <img src={logo} alt="logo" srcset="" />
+          <img src={logo} alt="logo" />
         </div>
         <div className="second__sec">
           <p>Navigation</p>
@@ -17,9 +17,9 @@ const Footer = () => {
           <ArrowForwardIosIcon fontSize="small"  className="footer__icon"/>
            <span> Gallery</span> 
           </Link>
-          <Link to="/career" className="footerLink">
+          <Link to="/enquiry" className="footerLink">
           <ArrowForwardIosIcon fontSize="small"  className="footer__icon"/>
-         <span>Career</span>  
+         <span>Enquiry</span>  
           </Link>
           <Link to="/contact" className="footerLink">
           <ArrowForwardIosIcon fontSize="small" className="footer__icon"/>
@@ -28,38 +28,35 @@ const Footer = () => {
         </div>
         <div className="third__sec">
           <p>Plywood</p>
-          <Link to="/gallery" className="footerLink">
+          <Link to="/commercial-ply" className="footerLink">
           <ArrowForwardIosIcon fontSize="small"  className="footer__icon"/>
            <span>Commercial Ply</span> 
           </Link>
-          <Link to="/career" className="footerLink">
+          <Link  to="/mr-grade-ply" className="footerLink">
           <ArrowForwardIosIcon fontSize="small"  className="footer__icon"/>
          <span>MR Grade Plywood</span>  
           </Link>
-          <Link to="/contact" className="footerLink">
+          <Link to="/waterproof-ply" className="footerLink">
           <ArrowForwardIosIcon fontSize="small" className="footer__icon"/>
           <span>Waterproof Ply</span> 
           </Link> 
-          <Link to="/contact" className="footerLink">
+          <Link to="/shuttering-ply" className="footerLink">
           <ArrowForwardIosIcon fontSize="small" className="footer__icon"/>
           <span>Shuttering Ply</span> 
           </Link> 
         </div>
         <div className="fourth__sec">
           <p>Doors</p>
-          <Link to="/contact" className="footerLink">
+          <Link to="/flush-doors" className="footerLink">
           <ArrowForwardIosIcon fontSize="small" className="footer__icon"/>
           <span>Flush Door</span> 
           </Link> 
-          <Link to="/gallery" className="footerLink">
+          <Link to="/laminated-door" className="footerLink">
           <ArrowForwardIosIcon fontSize="small"  className="footer__icon"/>
            <span>Laminated Door</span> 
           </Link>
-          <Link to="/career" className="footerLink">
-          <ArrowForwardIosIcon fontSize="small"  className="footer__icon"/>
-         <span>UV printed Door</span>  
-          </Link>
-          <Link to="/contact" className="footerLink">
+         
+          <Link to="/teak-doors" className="footerLink">
           <ArrowForwardIosIcon fontSize="small" className="footer__icon"/>
           <span>Teak Door</span> 
           </Link> 

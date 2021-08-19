@@ -58,7 +58,7 @@ const Enquiry = () => {
                                         </div>
                                         </div>
                                         <div className="enquiry_rightside">
-                                                  <img src={image1} alt="enauiry_img" srcset="" />
+                                                  <img src={image1} alt="enauiry_img"  />
                                         </div>
                               </div>
                     </div>

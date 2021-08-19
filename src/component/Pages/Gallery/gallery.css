@@ -1,0 +1,39 @@
+.gallery__container {
+  padding: 1rem;
+}
+
+.gallery__container h2 {
+  font-size: 3rem;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+.gallery__container .galleryWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.gallery__container .galleryWrap .galleryCard {
+  margin: .5rem;
+  height: 100%;
+  width: 300px;
+}
+
+.gallery__container .galleryWrap .galleryCard img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=gallery.css.map */

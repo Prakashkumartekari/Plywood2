@@ -6,8 +6,8 @@ const FinalLook = ({ finaldata}) => {
                             <div className="finallook__container">
                                       <h2>Final Look</h2>
                                       <div className="finallookcard_container">
-                                                { finaldata.map(item=>(
-                                                <div className="finallookcard">
+                                                { finaldata.map((item,i)=>(
+                                                <div className="finallookcard" key={i}>
                                                   <img src={item.img} alt="final1"/>
                                                 </div>
                                                 ))}
